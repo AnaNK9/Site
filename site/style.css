@@ -1,0 +1,19 @@
+header{
+    background-color: white;
+    padding: 0px 10px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 18px;
+    font-family: sans-serif;
+}
