@@ -1,37 +1,52 @@
 header{
-    background-color: white;
-    padding: 0px 10px;
+    background-color: rgb(68, 68, 68);
+    padding: 0px;
+    border: 0;
 }
 
 h1{
     font-size: 50px;
+    text-align: left;
+    background-color: #222222;
+    color: #c5c3c3;
+    padding: 40px;
+}
+
+h2{
     text-align: center;
+    font-size: 40px;
+    padding: 5px 10px;
 }
 
 .banner{
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 250%;
 }
 
 p{
     font-size: 18px;
     font-family: sans-serif;
+    padding: 5px 20px;
+}
+
+.borda{
+    border-left: 100px solid #ffffff;
+    border-right: 100px solid #ffffff;
 }
 
 .footer{
-    width: 100%;
-    min-height: 40px;
     background-color: #292929;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding: 30px;
-    gap: 15px;
     color: #dfdfdf;
+    text-align: center;
+    border: 0;
 }
     
-.logofooter{
-    width: 250px;
-}
 
