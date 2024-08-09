@@ -1,0 +1,37 @@
+header{
+    background-color: white;
+    padding: 0px 10px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.footer{
+    width: 100%;
+    min-height: 40px;
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 15px;
+    color: #dfdfdf;
+}
+    
+.logofooter{
+    width: 250px;
+}
+
