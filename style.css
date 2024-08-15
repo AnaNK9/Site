@@ -38,8 +38,8 @@ p{
     border-right: 100px solid #ffffff;
 }
 
-ul li {
-    display: inline-block;
+.imgs{
+    width: 20px;
 }
 
 .footer{
