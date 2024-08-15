@@ -37,7 +37,9 @@ p{
     border-right: 100px solid #ffffff;
 }
 
-
+.imgs{
+    width: 100%;
+}
 
 .footer{
     background-color: #292929;
