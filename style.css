@@ -38,6 +38,10 @@ p{
     border-right: 100px solid #ffffff;
 }
 
+ul li {
+    display: inline-block;
+}
+
 .footer{
     background-color: #292929;
     display: flex;
