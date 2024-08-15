@@ -38,6 +38,7 @@ p{
 }
 
 .imgs{
+    display: flex;
     width: 250px
 }
 
