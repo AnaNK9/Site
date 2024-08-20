@@ -2,12 +2,57 @@
 header{
     background-color: rgb(46, 46, 46);
     color: rgb(241, 241, 241);
+    width: 98%;
+    min-height: 40px;
+    padding: 20px;
+    gap: 8px 15px;
+}
+
+
+.buttoms{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 0px 30px 3px;
+}
+
+.buttonI{
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+    font-size: 23px;
+    position: absolute;
+    top: 80px;
+    right: 260px;
+}
+.buttonI:hover{
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.buttonR{
+    padding: 15px 40px;
+    font-size: 20px;
+    background-color: #8b7330;
+    border-color: 2px solid #b8973c;
+    color: #f1f1f1;
+    cursor: pointer;
+    transition: 0.6s;
+    position: absolute;
+    right: 40px;
+    top: 80px;
+}
+.buttonR:hover{
+    background-color: #e2e2e2;
+    border-color: 10px solid #c5c5c5;
+    color: #000000;
 }
 
 h1{
-    padding: 40px;
+    padding: 10px 10px 0px 30px;
     font-size: 60px;
-    border-top: 15px solid #f8f8f8;
     border-bottom: 2px solid #ffffff;
 }
 
@@ -61,7 +106,7 @@ h3{
 }
 
 .servicos{
-    width: 300px;
+    width: 350px;
     height: 400px;
     border: 2px solid transparent;
     transition: 0.5s;
@@ -104,8 +149,10 @@ h4{
     padding: 20px 20px;
     display: block;
     text-align: center;
+    transition: 0.5s;
 }
 
 .backToTop:hover{
     color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.2px;
 }
