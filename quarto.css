@@ -68,6 +68,43 @@ p{
     font-size: 18px;
 }
 
+h3{
+    text-align: center;
+    font-size: 30px;
+    border-top: 25px solid #dbdbdb;
+    padding: 10px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    border-top: 25px solid #ffffff;
+    padding: 10px;
+}
+
+.op1{
+    background-color: #dbdbdb;
+    padding: 30px;
+    border-left: 150px solid #dbdbdb;
+    border-right: 150px solid #dbdbdb;
+}
+.op2{
+    background-color: #ffffff;
+    padding: 30px;
+    border-left: 150px solid #ffffff;
+    border-right: 150px solid #ffffff;
+}
+
+.coluna{
+    float: left;
+    width: 33.33%;
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+
 
 
 h4{
