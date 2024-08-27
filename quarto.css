@@ -71,37 +71,29 @@ p{
 h3{
     text-align: center;
     font-size: 30px;
-    border-top: 25px solid #dbdbdb;
+    border-top: 25px solid #e6e6e6;
     padding: 10px;
+    font-family: sans-serif
 }
 h4{
     text-align: center;
     font-size: 30px;
     border-top: 25px solid #ffffff;
     padding: 10px;
+    font-family: sans-serif;
 }
 
 .op1{
-    background-color: #dbdbdb;
+    background-color: #e6e6e6;
     padding: 30px;
-    border-left: 150px solid #dbdbdb;
-    border-right: 150px solid #dbdbdb;
+    border-left: 150px solid #e6e6e6;
+    border-right: 150px solid #e6e6e6;
 }
 .op2{
     background-color: #ffffff;
     padding: 30px;
     border-left: 150px solid #ffffff;
     border-right: 150px solid #ffffff;
-}
-
-.coluna{
-    float: left;
-    width: 33.33%;
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 }
 
 

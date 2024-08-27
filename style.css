@@ -68,7 +68,7 @@ h1{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     font-family: sans-serif;
 }
@@ -80,7 +80,7 @@ p{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     font-family: sans-serif;
     border-top: 20px solid #e9e9e9;
@@ -104,7 +104,7 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .servicos{
@@ -113,6 +113,8 @@ h3{
     border: 2px solid transparent;
     transition: 0.5s;
     border-radius: 10px;
+    border-top: 2px solid #dddddd;
+    border-left: 2px solid #dddddd;
 }
 .servicos:hover{
     border-color: #ffffff;
@@ -120,9 +122,9 @@ h3{
 }
 
 .Img{
-    width: 90%;
+    width: 95%;
     height: 270px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px 10px;
 }
 
@@ -133,6 +135,13 @@ h3{
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    border: 2px transparent #000000;
+    border-radius: 10px;
+}
+.borda2{
+    background-color: #ffffff;
+    border-left: 300px #ffffff solid;
+    border-right: 300px #ffffff solid;
 }
 .quartos{
     width: 350px;
@@ -140,10 +149,25 @@ h3{
     border: 2px solid transparent;
     transition: 0.5s;
     border-radius: 10px;
+    padding: 80px 0px;
+}
+.quartoImg{
+    width: 500px;
+    display: table-cell;
+    float: left;
+    padding: 10px;
+}
+.P{
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
 }
 
+
+
 .p4{
-    padding: 0px 0px 100px 20px;
+    padding: 30px 0px 100px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -152,11 +176,15 @@ h3{
 .buttonQ{
     padding: 15px 40px;
     font-size: 20px;
-    background-color: #369ca0;
+    background-color: #4c6385;
     border-color: 2px solid #3cb0b8;
     color: #f1f1f1;
     cursor: pointer;
     transition: 0.6s;
+    border-radius: 40px;
+    position: absolute;
+    top: 2950px;
+    left: 1070px;
 }
 .buttonQ:hover{
         background-color: #e2e2e2;
@@ -168,7 +196,7 @@ h3{
 
 
 h4{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     font-family: sans-serif;
     border-top: 20px solid #ffffff;
