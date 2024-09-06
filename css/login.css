@@ -1,0 +1,176 @@
+
+header{
+    background-color: rgb(46, 46, 46);
+    color: rgb(241, 241, 241);
+    width: 98%;
+    min-height: 40px;
+    padding: 20px;
+    gap: 8px 15px;
+}
+h1{
+    padding: 10px 10px 0px 30px;
+    font-size: 60px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.buttoms{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 0px 30px 3px;
+}
+
+.buttonI{
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+    font-size: 23px;
+    position: absolute;
+    top: 80px;
+    right: 500px;
+}
+.buttonI:hover{
+    -webkit-text-stroke-width: 0.5px;
+}
+.buttonLC{
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+    font-size: 23px;
+    position: absolute;
+    top: 80px;
+    right: 260px;
+}
+.buttonLC:hover{
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.buttonR{
+    padding: 15px 40px;
+    font-size: 20px;
+    background-color: #8b7330;
+    border-color: 2px solid #b8973c;
+    color: #f1f1f1;
+    cursor: pointer;
+    transition: 0.6s;
+    position: absolute;
+    right: 40px;
+    top: 80px;
+}
+.buttonR:hover{
+    background-color: #e2e2e2;
+    border-color: 10px solid #c5c5c5;
+    color: #000000;
+}
+
+
+
+.p1{
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px 50px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.login-form, .signup-form {
+    width: 48%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttonE{
+    width: 108%;
+    padding: 10px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.buttonE:hover{
+    background-color: #0050a5;
+    width: 109%;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+h4{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    border-top: 20px solid #ffffff;
+}
+
+.footer{
+    background-color: rgb(53, 53, 53);
+    color: rgb(218, 218, 218);
+    padding: 10px 40px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.backToTop{
+    color: #dfdfdf;
+    border: 2px solid #49666d;
+    background-color: #49666d;
+    padding: 20px 20px;
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.backToTop:hover{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.2px;
+}
