@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="./css/menu.css">
+</head>
+<body>
+
+    <header id="backToTop" class="header">
+
+        <h1><b>Hotel Resort</b></h1>
+
+        <div class="buttoms">
+            <a href="./index.html"><button class="buttonI">Início</button></a>
+            <a href="./login.html"><button class="buttonLC" id="userAction" >Login/Cadastro</button></a>
+            <a href="./index.html"><button class="buttonR">Reservar</button></a>
+          </div>
+    </header>
+
+    <a href="./login.html"><h6 id="loginStatus">Você não está logado.</h6></a>
+    
+
+    <h2>Cardápio</h2>
+    <form id="pedidoForm">
+        <h3>Escolha seu pedido</h3>
+
+         <div class="borda">
+<div class="menu">
+    <div class="p1">
+
+        <div class="menu-item">
+            <img class="Img" src="./img/lasanha.png" alt="Lasanha">
+            <p><label class="item" for="lasanha">Lasanha - R$ 25,00</label></p>
+            <input type="checkbox" id="lasanha" name="item" value="Lasanha" data-preco="25">
+            <label for="quantidadeLasanha">Quantidade</label>
+            <input type="number" id="quantidadeLasanha" name="quantidadeLasanha" min="1" value="1" disabled>
+          </div>
+
+          <div class="menu-item">
+            <img class="Img" src="./img/frango.png" alt="Lasanha">
+            <p><label class="item" for="Frango">Frango - R$ 20,00</label></p>
+            <input type="checkbox" id="Frango" name="item" value="Frango" data-preco="25">
+            <label for="quantidadeFrango">Quantidade</label>
+            <input type="number" id="quantidadeFrango" name="quantidadeFrango" min="1" value="1" disabled>
+          </div>
+
+          <div class="menu-item">
+            <img class="Img" src="./img/salada.png" alt="Salada">
+            <p><label class="item" for="Salada">Salada - R$ 15,00</label></p>
+            <input type="checkbox" id="Salada" name="item" value="Salada" data-preco="25">
+            <label for="quantidadeSalada">Quantidade</label>
+            <input type="number" id="quantidadeSalada" name="quantidadeSalada" min="1" value="1" disabled>
+          </div>
+
+          <div class="menu-item">
+            <img class="Img" src="./img/carne.png" alt="Carne">
+            <p><label class="item" for="Carne">Carne - R$ 28,00</label></p>
+            <input type="checkbox" id="Carne" name="item" value="Carne" data-preco="25">
+            <label for="quantidadeCarne">Quantidade</label>
+            <input type="number" id="quantidadeCarne" name="quantidadeCarne" min="1" value="1" disabled>
+          </div>
+
+          <div class="menu-item">
+            <img class="Img" src="./img/risoto.png" alt="Risoto">
+            <p><label class="item" for="Risoto">Risoto - R$ 30,00</label></p>
+            <input type="checkbox" id="Risoto" name="item" value="Risoto" data-preco="25">
+            <label for="quantidadeRisoto">Quantidade</label>
+            <input type="number" id="quantidadeRisoto" name="quantidadeRisoto" min="1" value="1" disabled>
+          </div>
+
+          <div class="menu-item">
+            <img class="Img" src="./img/salada.png" alt="Salada">
+            <p><label class="item" for="Salada">Salada - R$ 25,00</label></p>
+            <input type="checkbox" id="Salada" name="item" value="Salada" data-preco="25">
+            <label for="quantidadeSalada">Quantidade</label>
+            <input type="number" id="quantidadeSalada" name="quantidadeSalada" min="1" value="1" disabled>
+          </div>
+
+    </div>
+</div>
+
+<button type="submit">Fazer Pedido</button>
+    </form>
+
+    <div id="pedidoResumo"></div>
+         </div>
+
+
+
+    <script src="./script.js"></script>
+
+
+<a href="#backToTop" class="backToTop">VOLTAR PARA O TOPO</a>
+
+<footer class="footer">
+<div class="contato">
+    <h5>Contato</h5>
+    <p>E-mail: contato@exemplo.com</p>
+    <p>Telefone: +123 456 7890</p>
+    <p>Endereço: 123 Anywhere st., Any City</p>
+</div>
+
+<div class="sobre">
+<ul>
+    <li>Termos de uso</li>
+    <li>Política de privacidade</li>
+    <li>Sobre nós</li>
+  </ul>
+</div>
+
+    <p>&copy; 2024 - Todos os direitos Reservados</p>
+
+</footer>
+</body>
+</html>

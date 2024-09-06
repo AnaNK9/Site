@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Cadastro</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <header id="backToTop" class="header">
+
+        <h1><b>Hotel Resort</b></h1>
+
+        <div class="buttoms">
+            <a href="./index.html"><button class="buttonI">Início</button></a>
+            <a href="./login.html"><button class="buttonLC">Login/Cadastro</button></a>
+            <a href="./index.html"><button class="buttonR">Reservar</button></a>
+          </div>
+    </header>
+
+<section class="p1">
+
+    <div class="container">
+        <div class="form-container">
+            <div class="login-form">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <input type="email" id="loginEmail" placeholder="Email" required>
+                    <input type="password" id="loginPassword" placeholder="Senha" required>
+                    <button class="buttonE" type="submit">Entrar</button>
+                    <p id="loginError" class="error-message"></p>
+                </form>
+            </div>
+
+            <div class="signup-form">
+                <h2>Cadastre-se</h2>
+                <form id="signupForm">
+                    <input type="text" id="signupUsername" placeholder="Nome de usuário" required>
+                    <input type="email" id="signupEmail" placeholder="Email" required>
+                    <input type="password" id="signupPassword" placeholder="Senha" required>
+                    <input type="password" id="signupConfirmPassword" placeholder="Confirmar Senha" required>
+                    <button class="buttonE" type="submit">Cadastrar-se</button>
+                    <p id="signupError" class="error-message"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    <script src="script.js"></script>
+
+
+    <a href="#backToTop" class="backToTop">VOLTAR PARA O TOPO</a>
+
+<footer class="footer">
+<div class="contato">
+    <h5>Contato</h5>
+    <p>E-mail: contato@exemplo.com</p>
+    <p>Telefone: +123 456 7890</p>
+    <p>Endereço: 123 Anywhere st., Any City</p>
+</div>
+
+<div class="sobre">
+<ul>
+    <li>Termos de uso</li>
+    <li>Política de privacidade</li>
+    <li>Sobre nós</li>
+  </ul>
+</div>
+
+    <p>&copy; 2024 - Todos os direitos Reservados</p>
+
+</footer>
+</body>
+</html>
