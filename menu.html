@@ -21,10 +21,11 @@
 
     <a href="./login.html"><h6 id="loginStatus">Você não está logado.</h6></a>
     
-
+<div class="background">
     <h2>Cardápio</h2>
     <form id="pedidoForm">
         <h3>Escolha seu pedido</h3>
+</div>
 
          <div class="borda">
 <div class="menu">
@@ -41,7 +42,7 @@
           <div class="menu-item">
             <img class="Img" src="./img/frango.png" alt="Lasanha">
             <p><label class="item" for="Frango">Frango - R$ 20,00</label></p>
-            <input type="checkbox" id="Frango" name="item" value="Frango" data-preco="25">
+            <input type="checkbox" id="Frango" name="item" value="Frango" data-preco="20">
             <label for="quantidadeFrango">Quantidade</label>
             <input type="number" id="quantidadeFrango" name="quantidadeFrango" min="1" value="1" disabled>
           </div>
@@ -49,7 +50,7 @@
           <div class="menu-item">
             <img class="Img" src="./img/salada.png" alt="Salada">
             <p><label class="item" for="Salada">Salada - R$ 15,00</label></p>
-            <input type="checkbox" id="Salada" name="item" value="Salada" data-preco="25">
+            <input type="checkbox" id="Salada" name="item" value="Salada" data-preco="15">
             <label for="quantidadeSalada">Quantidade</label>
             <input type="number" id="quantidadeSalada" name="quantidadeSalada" min="1" value="1" disabled>
           </div>
@@ -57,7 +58,7 @@
           <div class="menu-item">
             <img class="Img" src="./img/carne.png" alt="Carne">
             <p><label class="item" for="Carne">Carne - R$ 28,00</label></p>
-            <input type="checkbox" id="Carne" name="item" value="Carne" data-preco="25">
+            <input type="checkbox" id="Carne" name="item" value="Carne" data-preco="28">
             <label for="quantidadeCarne">Quantidade</label>
             <input type="number" id="quantidadeCarne" name="quantidadeCarne" min="1" value="1" disabled>
           </div>
@@ -65,23 +66,23 @@
           <div class="menu-item">
             <img class="Img" src="./img/risoto.png" alt="Risoto">
             <p><label class="item" for="Risoto">Risoto - R$ 30,00</label></p>
-            <input type="checkbox" id="Risoto" name="item" value="Risoto" data-preco="25">
+            <input type="checkbox" id="Risoto" name="item" value="Risoto" data-preco="30">
             <label for="quantidadeRisoto">Quantidade</label>
             <input type="number" id="quantidadeRisoto" name="quantidadeRisoto" min="1" value="1" disabled>
           </div>
 
           <div class="menu-item">
-            <img class="Img" src="./img/salada.png" alt="Salada">
-            <p><label class="item" for="Salada">Salada - R$ 25,00</label></p>
-            <input type="checkbox" id="Salada" name="item" value="Salada" data-preco="25">
-            <label for="quantidadeSalada">Quantidade</label>
-            <input type="number" id="quantidadeSalada" name="quantidadeSalada" min="1" value="1" disabled>
+            <img class="Img" src="./img/macarronada.png" alt="Macarronada">
+            <p><label class="item" for="Macarronada">Macarronada - R$ 19,00</label></p>
+            <input type="checkbox" id="Macarronada" name="item" value="Macarronada" data-preco="19">
+            <label for="quantidadeMacarronada">Quantidade</label>
+            <input type="number" id="quantidadeMacarronada" name="quantidadeMacarronada" min="1" value="1" disabled>
           </div>
 
     </div>
 </div>
 
-<button type="submit">Fazer Pedido</button>
+<div class="pedido"><button class="buttonPedido" type="submit">Fazer Pedido</button></div>
     </form>
 
     <div id="pedidoResumo"></div>
