@@ -29,11 +29,28 @@ h1{
     font-size: 23px;
     position: absolute;
     top: 80px;
-    right: 450px;
+    right: 530px;
 }
 .buttonI:hover{
     -webkit-text-stroke-width: 0.5px;
 }
+
+.buttonC{
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+    font-size: 23px;
+    position: absolute;
+    top: 80px;
+    right: 410px;
+}
+.buttonC:hover{
+    -webkit-text-stroke-width: 0.5px;
+}
+
 .buttonLC{
     padding: 15px 40px;
     background-color: transparent;
@@ -44,7 +61,7 @@ h1{
     font-size: 23px;
     position: absolute;
     top: 80px;
-    right: 240px;
+    right: 220px;
 }
 .buttonLC:hover{
     -webkit-text-stroke-width: 0.5px;
@@ -114,6 +131,22 @@ h4{
     padding: 30px;
     border-left: 150px solid #ffffff;
     border-right: 150px solid #ffffff;
+}
+
+.img1{
+    width: 47%;
+    transition: 0.5s;
+}
+.img1:hover{
+    width: 49.5%;
+}
+
+.img2{
+    width: 50%;
+    transition: 0.5s;
+}
+.img2:hover{
+    width: 52.5%;
 }
 
 

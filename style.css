@@ -26,11 +26,28 @@ header{
     font-size: 23px;
     position: absolute;
     top: 80px;
-    right: 450px;
+    right: 530px;
 }
 .buttonI:hover{
     -webkit-text-stroke-width: 0.5px;
 }
+
+.buttonC{
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+    font-size: 23px;
+    position: absolute;
+    top: 80px;
+    right: 410px;
+}
+.buttonC:hover{
+    -webkit-text-stroke-width: 0.5px;
+}
+
 .buttonLC{
     padding: 15px 40px;
     background-color: transparent;
@@ -41,7 +58,7 @@ header{
     font-size: 23px;
     position: absolute;
     top: 80px;
-    right: 240px;
+    right: 220px;
 }
 .buttonLC:hover{
     -webkit-text-stroke-width: 0.5px;

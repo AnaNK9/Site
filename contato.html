@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header id="backToTop" class="header">
+
+        <h1><b>Hotel Resort</b></h1>
+
+        <div class="buttoms">
+            <a href="./index.html"><button class="buttonI">Início</button></a>
+            <a href="./contato.html"><button class="buttonC">Contato</button></a>
+            <a href="./login.html"><button class="buttonLC" id="userAction" >Login/Cadastro</button></a>
+            <a href="./index.html"><button class="buttonR">Reservar</button></a>
+          </div>
+    </header>
+
+    <a href="./login.html"><h6 id="loginStatus">Você não está logado.</h6></a>
+
+<div class="background">
+
+    <section class="contactForm">
+        <h2>Entre em Contato Conosco</h2>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <div class="form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Nome" required>
+            </div>
+
+            <div class="form">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+            </div>
+
+            <div class="form">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+            </div>
+
+            <div class="form"></div>
+                <button class="enviar" type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+</div>
+
+
+
+
+   <script src="./script.js"></script>
+
+
+<a href="#backToTop" class="backToTop">VOLTAR PARA O TOPO</a>
+
+<footer class="footer">
+<div class="contato">
+    <h5>Contato</h5>
+    <p>E-mail: contato@exemplo.com</p>
+    <p>Telefone: +123 456 7890</p>
+    <p>Endereço: 123 Anywhere st., Any City</p>
+</div>
+
+<div class="sobre">
+<ul>
+    <li>Termos de uso</li>
+    <li>Política de privacidade</li>
+    <li>Sobre nós</li>
+  </ul>
+</div>
+
+    <p>&copy; 2024 - Todos os direitos Reservados</p>
+
+</footer>
+    
+</body>
+</html>

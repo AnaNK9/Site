@@ -124,3 +124,31 @@ document.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => {
     pedidoResumo.style.display = "block";
   });
   
+
+
+
+//contato//
+
+function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+
+    if (name == "" || email == "" || message == "") {
+        alert("Por favor, preencha todos os campos.");
+        return false;
+    }
+
+    if (!validateEmail(email)) {
+        alert("Por favor, insira um e-mail válido.");
+        return false;
+    }
+
+    alert("Formulário enviado com sucesso!");
+    return true;
+}
+
+function validateEmail(email) {
+    var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+}
